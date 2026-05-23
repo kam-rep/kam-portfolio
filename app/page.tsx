@@ -19,7 +19,7 @@ export default function Home() {
         <div className="absolute bottom-[-100px] right-[-100px] h-[300px] w-[300px] rounded-full bg-blue-500/20 blur-3xl"></div>
 
         {/* Hero Section */}
-        <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 md:flex-row">
+        <section className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 pt-32 md:flex-row md:pt-0">
           
           {/* Left Side */}
           <motion.div
@@ -48,9 +48,13 @@ export default function Home() {
                 View Projects
               </button>
 
-              <button className="rounded-lg border border-gray-700 px-6 py-3 transition hover:border-cyan-400">
+              <a
+                href="/Kameshwar_Resume.pdf"
+                download
+                className="rounded-lg border border-gray-700 px-6 py-3 transition hover:border-cyan-400"
+              >
                 Download Resume
-              </button>
+              </a>
             </div>
           </motion.div>
 
