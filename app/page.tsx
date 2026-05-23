@@ -4,6 +4,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Home() {
   return (
@@ -54,8 +55,13 @@ export default function Home() {
           </motion.div>
 
           {/* Right Side */}
-          <div className="mt-16 flex-1 md:mt-0">
-            <div className="rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-2xl backdrop-blur-md">
+          <motion.div
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="mt-16 flex-1 md:mt-0"
+          >
+            <div className="animate-float rounded-2xl border border-gray-800 bg-gray-900/50 p-6 shadow-2xl backdrop-blur-md">
               
               <div className="mb-4 flex gap-2">
                 <div className="h-3 w-3 rounded-full bg-red-500"></div>
@@ -63,22 +69,38 @@ export default function Home() {
                 <div className="h-3 w-3 rounded-full bg-green-500"></div>
               </div>
 
-              <pre className="overflow-x-auto text-sm text-green-400">
-{`$ kubectl get pods
+              <TypeAnimation
+                sequence={[
+                  `$ kubectl get pods
 
-NAME                    STATUS
-auth-service            Running
-billing-service         Running
-notification-service    Running
-gateway-service         Running
+              NAME                    STATUS
+              auth-service            Running
+              billing-service         Running
+              notification-service    Running
+              gateway-service         Running`,
 
-$ terraform apply
+                  2000,
 
-Apply complete!
-Infrastructure deployed.`}
-              </pre>
+                  `$ terraform apply
+
+              Apply complete!
+              Infrastructure deployed successfully.`,
+
+                  2000,
+
+                  `$ argocd app sync production
+
+              Application synced.
+              Zero downtime deployment completed.`,
+
+                  2000,
+                ]}
+                speed={70}
+                repeat={Infinity}
+                className="overflow-x-auto whitespace-pre-wrap text-sm text-green-400"
+              />
             </div>
-          </div>
+          </motion.div>
         </section>
 
         {/* Skills Section */}

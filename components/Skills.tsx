@@ -41,7 +41,7 @@ export default function Skills() {
         {skills.map((skill) => (
           <div
             key={skill}
-            className="rounded-xl border border-gray-800 bg-gray-900/40 p-5 text-center text-gray-300 transition hover:border-cyan-400 hover:bg-gray-900"
+            className="transform rounded-xl border border-gray-800 bg-gray-900/40 p-5 text-center text-gray-300 transition duration-300 hover:-translate-y-2 hover:border-cyan-400 hover:bg-gray-900"
           >
             {skill}
           </div>
