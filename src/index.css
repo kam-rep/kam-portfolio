@@ -96,3 +96,19 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #16a34a;
 }
+
+@keyframes lineReveal {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.animate-lineReveal {
+  animation: lineReveal 1s ease forwards;
+}

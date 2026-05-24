@@ -67,27 +67,19 @@ export const About = () => {
                 </div>
                 <div className="space-y-4 text-neutral-200 leading-relaxed">
                   <Typewriter
-                    text="Hello, I'm Neeraj Chandra Nakka, and I turn code into production reality."
+                    text="Hello, I’m Kameshwar Vivekananthan — a DevOps & Cloud Engineer focused on building scalable, reliable, and production-ready infrastructure."
                     delay={30}
                     className="text-primary-500 font-semibold block mb-4"
                   />
                   <p>
-                    I design, automate, and deploy systems that turn code into production-grade reality. 
-                    My journey began with full-stack development—building web apps with Java, React, and Node.js.
+                    I specialize in cloud-native technologies, CI/CD automation, Kubernetes orchestration, and infrastructure as code. 
+                    My work revolves around designing systems that are resilient, efficient, and built for real-world scale.
                   </p>
                   <p>
-                    Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, 
-                    where I now focus on crafting scalable infrastructure, clean CI/CD pipelines, and resilient deployments.
-                  </p>
-                  <p>
-                    I work across AWS and Azure, orchestrate containers with Docker and Kubernetes, 
-                    and define infrastructure with Terraform and automation scripts. Behind the command line, 
-                    I'm equally comfortable in version control and workflow automation, using Git, GitHub, 
-                    and GitLab CI/CD to bridge collaboration and delivery.
+                    From deploying containerized applications with Docker and Kubernetes to automating infrastructure using Terraform and cloud platforms like AWS and GCP, I enjoy turning complex operational challenges into streamlined engineering workflows.
                   </p>
                   <p className="text-primary-500 font-medium">
-                    For me, DevOps isn't just about speed—it's about precision, repeatability, 
-                    and creating systems that empower developers to ship confidently and innovate faster.
+                    For me, DevOps is more than automation — it’s about reliability, consistency, and enabling teams to ship faster with confidence.
                   </p>
                 </div>
               </div>
@@ -108,19 +100,19 @@ export const About = () => {
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Experience</span>
-                    <span className="text-primary-500 font-mono">1+ years</span>
+                    <span className="text-primary-500 font-mono">2.7+ years</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-neutral-400">Cloud Platforms</span>
-                    <span className="text-primary-500 font-mono">AWS, Azure</span>
+                    <span className="text-neutral-400">Cloud Infrastructure</span>
+                    <span className="text-primary-500 font-mono">AWS & GCP</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-neutral-400">Projects</span>
-                    <span className="text-primary-500 font-mono">7+ deployed</span>
+                    <span className="text-neutral-400">Projects Deployments</span>
+                    <span className="text-primary-500 font-mono">20+ </span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-neutral-400">Technologies</span>
-                    <span className="text-primary-500 font-mono">19+ mastered</span>
+                    <span className="text-neutral-400">DevOps Stack</span>
+                    <span className="text-primary-500 font-mono">18+ Technologies</span>
                   </div>
                 </div>
               </div>
@@ -130,7 +122,7 @@ export const About = () => {
                   Specializations
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Cloud Architecture', 'CI/CD Pipelines', 'Infrastructure as Code', 'Container Orchestration', 'Microservices'].map((skill) => (
+                  {['Cloud Architecture', 'CI/CD Automation', 'Infrastructure as Code', 'Container Orchestration', 'GitOps & Kubernetes', 'Microservices'].map((skill) => (
                     <span
                       key={skill}
                       className="px-3 py-1 bg-neutral-800 text-neutral-200 text-sm rounded-md border border-neutral-700 hover:border-primary-500/50 transition-colors"

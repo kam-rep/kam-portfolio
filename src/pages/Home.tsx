@@ -29,11 +29,41 @@ export const Home = () => {
             transition={{ duration: 0.8 }}
             className="space-y-8"
           >
-            {/* Terminal prompt */}
-            <div className="font-mono text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide">
-              <span className="text-accent-500 mr-3">$</span>
-              <span className="text-primary-500">whoami</span>
+            {/* Identity Row */}
+            <div className="flex items-center justify-center gap-20">
+
+              {/* Text Content */}
+              <div className="text-left">
+                {/* Terminal prompt */}
+                <div className="flex justify-center font-mono text-2xl md:text-3xl lg:text-4xl font-bold tracking-wide">
+                  <span className="mr-3 text-accent-500">$</span>
+                  <span className="text-primary-500">whoami</span>
+                </div>
+
+                {/* Name */}
+                <div className="mt-5 inline-block">
+                  <h1 className="bg-gradient-to-r from-white to-cyan-400 bg-clip-text text-4xl font-bold tracking-tight text-transparent md:text-6xl lg:text-7xl">
+                    Kameshwar V
+                  </h1>
+
+                  <div className="mt-3 overflow-hidden">
+                    <div className="animate-lineReveal h-[3px] w-full bg-cyan-400/70" />
+                  </div>
+                </div>
+              </div>
+
+              {/* Profile Image */}
+              <div className="relative shrink-0">
+                <div className="absolute inset-0 rounded-3xl bg-cyan-500/20 blur-2xl" />
+
+                <img
+                  src="/profile.png"
+                  alt="Kameshwar V"
+                  className="relative z-10 h-28 w-28 rounded-3xl border border-cyan-400/20 object-cover shadow-2xl md:h-36 md:w-36"
+                />
+              </div>
             </div>
+            
 
             {/* Typewriter heading */}
             <div className="font-mono text-4xl md:text-6xl lg:text-8xl font-bold tracking-tight text-primary-500">
