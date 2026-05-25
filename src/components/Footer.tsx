@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Briefcase, Mail } from 'lucide-react';
 import { CONTACT } from '../data/portfolio';
 
 export const Footer = () => {
@@ -17,9 +17,9 @@ export const Footer = () => {
       icon: Linkedin,
     },
     {
-      name: 'Twitter',
-      url: CONTACT.social.twitter,
-      icon: Twitter,
+      name: 'Naukri',
+      url: CONTACT.social.naukri,
+      icon: Briefcase
     },
     {
       name: 'Email',
@@ -64,7 +64,7 @@ export const Footer = () => {
             </div>
             <div className="mt-2 space-y-1 text-xs">
               <p>© {currentYear} DevOps & Cloud Engineer</p>
-              <p>Built with React, TypeScript, and Cyber Terminal Aesthetic</p>
+              <p>Built with React, TypeScript</p>
               <p className="text-primary-500">Status: Available for opportunities</p>
             </div>
           </div>

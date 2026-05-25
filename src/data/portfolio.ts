@@ -106,11 +106,11 @@ export const PROJECTS = [
 export const CONTACT = {
   address: 'Hyderabad, Telangana, India',
   phoneNo: '+91 9000600559',
-  email: 'neerajnakka.n@gmail.com',
+  email: 'kameshtech1@gmail.com',
   social: {
-    github: 'https://github.com/neerajnakka',
-    linkedin: 'https://linkedin.com/in/neerajchandran',
-    twitter: 'https://twitter.com/neerajnakka',
+    github: 'https://github.com/kam-rep',
+    linkedin: 'https://linkedin.com/in/kameshwar-vivekananthan',
+    naukri: 'https://www.naukri.com/',
   }
 };
 
