@@ -104,8 +104,8 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: 'Hyderabad, Telangana, India',
-  phoneNo: '+91 9000600559',
+  address: 'Puducherry, Pondicherry, India',
+  phoneNo: '+91 8190043052',
   email: 'kameshtech1@gmail.com',
   social: {
     github: 'https://github.com/kam-rep',
