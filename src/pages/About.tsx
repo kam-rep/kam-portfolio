@@ -104,7 +104,7 @@ export const About = () => {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Cloud Infrastructure</span>
-                    <span className="text-primary-500 font-mono">AWS & GCP</span>
+                    <span className="text-primary-500 font-mono">AWS,GCP,DigitalOcean</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-neutral-400">Projects Deployments</span>

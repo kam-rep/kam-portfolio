@@ -7,10 +7,10 @@ import { HERO_CONTENT, SKILLS, PROJECTS } from '../data/portfolio';
 
 export const Home = () => {
   const stats = [
-    { label: 'Years Experience', value: '1+' },
-    { label: 'Cloud Platforms', value: '3' },
-    { label: 'Projects Completed', value: '10+' },
-    { label: 'Technologies', value: '19+' },
+    { label: 'Years Experience', value: '2.7+' },
+    { label: 'Cloud Infrastructure', value: '3' },
+    { label: 'Projects Deployed', value: '20+' },
+    { label: 'Technologies', value: '18+' },
   ];
 
   const featuredSkills = SKILLS.slice(0, 6);
@@ -216,11 +216,11 @@ export const Home = () => {
             className="bg-bg-elevated border border-primary-500/20 p-12 rounded-2xl shadow-glow"
           >
             <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary-500 mb-6">
-              Ready to Deploy Your Vision?
+              Ready to Build Scalable Infrastructure?
             </h2>
             <p className="text-xl text-neutral-200 mb-8 leading-relaxed">
-              Let's build something amazing together. From infrastructure automation to full-stack development, 
-              I'm here to turn your ideas into production reality.
+              I design and automate reliable cloud-native systems focused on scalability, deployment automation, observability, and production-grade reliability across modern DevOps platforms.
+              Let’s build resilient infrastructure that scales with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
