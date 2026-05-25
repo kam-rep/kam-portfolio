@@ -216,11 +216,11 @@ export const Home = () => {
             className="bg-bg-elevated border border-primary-500/20 p-12 rounded-2xl shadow-glow"
           >
             <h2 className="font-mono text-3xl md:text-4xl font-bold text-primary-500 mb-6">
-              Ready to Build Scalable Infrastructure?
+              Ready to Build Reliable Infrastructure?
             </h2>
             <p className="text-xl text-neutral-200 mb-8 leading-relaxed">
-              I design and automate reliable cloud-native systems focused on scalability, deployment automation, observability, and production-grade reliability across modern DevOps platforms.
-              Let’s build resilient infrastructure that scales with confidence.
+              Designing scalable cloud-native systems with automation, Kubernetes, CI/CD pipelines, and production-grade reliability across modern cloud platforms.
+              Let’s build infrastructure that ships faster and scales confidently.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
