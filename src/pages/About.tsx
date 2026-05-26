@@ -151,7 +151,7 @@ export const About = () => {
               Career Timeline
             </h2>
             <p className="text-neutral-400 max-w-2xl mx-auto">
-              My journey from full-stack development to DevOps engineering
+              My journey from infrastructure operations to building scalable cloud-native platforms and production-grade DevOps systems.
             </p>
           </motion.div>
 
