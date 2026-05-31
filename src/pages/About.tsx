@@ -50,17 +50,17 @@ export const About = () => {
     {
       icon: Zap,
       title: 'Automation First',
-      description: 'Every manual process should be automated, every deployment should be reproducible.',
+      description: 'Eliminate repetitive tasks through automation, enabling faster, more reliable, and repeatable delivery.',
     },
     {
       icon: Code,
-      title: 'Infrastructure as Code',
-      description: 'Treat infrastructure with the same discipline as application code.',
+      title: 'Build for Reliability',
+      description: 'Design systems that remain stable, observable, and resilient under real-world production workloads.',
     },
     {
       icon: MapPin,
-      title: 'Cloud Native',
-      description: 'Build for the cloud from day one, embrace containerization and orchestration.',
+      title: 'Cloud-Native Thinking',
+      description: 'Leverage containers, Kubernetes, and modern cloud services to build scalable and maintainable platforms.',
     },
   ];
 
