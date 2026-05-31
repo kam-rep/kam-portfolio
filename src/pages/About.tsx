@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { TerminalHeader } from '../components/TerminalHeader';
 import { Typewriter } from '../components/Typewriter';
-import { Calendar, MapPin, Code, Zap, Briefcase, GraduationCap } from 'lucide-react';
+import { Calendar, Cloud, Code, Zap, Briefcase, GraduationCap } from 'lucide-react';
 
 export const About = () => {
   const timeline = [
@@ -58,7 +58,7 @@ export const About = () => {
       description: 'Design systems that remain stable, observable, and resilient under real-world production workloads.',
     },
     {
-      icon: MapPin,
+      icon: Cloud,
       title: 'Cloud-Native Thinking',
       description: 'Leverage containers, Kubernetes, and modern cloud services to build scalable and maintainable platforms.',
     },
