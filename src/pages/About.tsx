@@ -1,24 +1,49 @@
 import { motion } from 'framer-motion';
 import { TerminalHeader } from '../components/TerminalHeader';
 import { Typewriter } from '../components/Typewriter';
-import { Calendar, MapPin, Code, Zap } from 'lucide-react';
+import { Calendar, MapPin, Code, Zap, Briefcase, GraduationCap } from 'lucide-react';
 
 export const About = () => {
   const timeline = [
     {
-      year: '2023 - Present',
-      title: 'Freelance DevOps & Cloud Engineer',
-      company: 'Self-Employed',
+      year: 'Oct,2024 - Present',
+      title: 'DevOps & Cloud Engineer',
+      company: 'Twilight IT Solutions Pvt Ltd',
       description:
-        'Working on freelance projects focusing on cloud automation, CI/CD, and container orchestration using AWS, Docker, and Kubernetes.',
-      icon: Code,},
-    {
-      year: '2019 - 2023',
-      title: 'Computer Science Graduate',
-      company: 'CVR College Of Engineering',
-      description: 'Bachelor\'s degree with focus on software engineering and cloud computing.',
-      icon: Calendar,
+        'Designing and managing cloud-native infrastructure across AWS and GCP. Building CI/CD pipelines, automating deployments, managing Kubernetes workloads, implementing Infrastructure as Code with Terraform, and improving system reliability through monitoring and observability solutions.',
+      icon: Code,
     },
+    {
+      year: 'Oct,2023 - Sep,2024',
+      title: 'DevOps Engineer',
+      company: 'AppExperts Pvt Ltd',
+      description: 'Worked on containerized application deployments, Linux administration, cloud infrastructure management, CI/CD automation, and Kubernetes-based environments. Collaborated with development teams to streamline software delivery and improve deployment efficiency.',
+      icon: Code,
+    },
+    {
+    year: 'April,2023 - Oct, 2023',
+    title: 'DevOps Engineer Intern',
+    company: 'AppExperts Academy Pvt Ltd',
+    description:
+      'Started my professional DevOps journey by learning containerization, Linux systems, cloud platforms, version control, and deployment automation. Assisted in managing infrastructure and gained hands-on experience with real-world DevOps workflows and production environments.',
+    icon: Briefcase,
+  },
+  {
+    year: '2017 - 2019',
+    title: 'Master of Business Administration (MBA)',
+    company: 'Pondicherry University',
+    description:
+      'Pursued postgraduate studies while developing my technical career. Strengthened skills in business strategy, project management, leadership, and organizational decision-making, complementing my technical expertise in cloud and DevOps engineering.',
+    icon: GraduationCap,
+  },
+  {
+    year: '2013 - 2017',
+    title: 'Bachelor of Technology - Mechanical Engineering',
+    company: 'Pondicherry Engineering College',
+    description:
+      'Built a strong foundation in analytical thinking, problem-solving, engineering principles, and system design. This engineering mindset later became the foundation for my transition into cloud computing, automation, and DevOps engineering.',
+    icon: GraduationCap,
+  },
   ];
 
   const philosophyPoints = [
