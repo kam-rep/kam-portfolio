@@ -33,7 +33,7 @@ export const SKILLS = [
   { name: 'Cloud Armor', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Armor.svg', category: 'gcpcloudservices', level: 75 },
   { name: 'Cloud NAT', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-NAT.svg', category: 'gcpcloudservices', level: 75 },
   { name: 'Secret Manager', icon: 'https://icon.icepanel.io/GCP/svg/Secret-Manager.svg', category: 'gcpcloudservices', level: 75 },
-   { name: 'Cloud Audit Logs', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Audit-Logs.svg', category: 'gcpcloudservices', level: 80 },
+  { name: 'Cloud Audit Logs', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Audit-Logs.svg', category: 'gcpcloudservices', level: 80 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 85 },
