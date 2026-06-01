@@ -21,6 +21,7 @@ export const SKILLS = [
   { name: 'Route 53', icon: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Route-53.svg', category: 'awscloudservices', level: 75 },
   { name: 'AWS Amplify', icon: 'https://icon.icepanel.io/AWS/svg/Front-End-Web-Mobile/Amplify.svg', category: 'awscloudservices', level: 65 },
   { name: 'API Gateway', icon: 'https://icon.icepanel.io/AWS/svg/App-Integration/API-Gateway.svg', category: 'awscloudservices', level: 75 },
+  { name: 'SES', icon: 'https://icon.icepanel.io/AWS/svg/Business-Applications/Simple-Email-Service.svg', category: 'awscloudservices', level: 85 },
   
   //GCP  Cloud Services
   { name: 'VPC', icon: 'https://icon.icepanel.io/GCP/svg/Virtual-Private-Cloud.svg', category: 'gcpcloudservices', level: 75 },
@@ -29,6 +30,10 @@ export const SKILLS = [
   { name: 'Cloud load balancer', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Load-Balancing.svg', category: 'gcpcloudservices', level: 70 },
   { name: 'Pub/Sub', icon: 'https://icon.icepanel.io/GCP/svg/PubSub.svg', category: 'gcpcloudservices', level: 70 },
   { name: 'Cloud Run', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Run.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud Armor', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Armor.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud NAT', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-NAT.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Secret Manager', icon: 'https://icon.icepanel.io/GCP/svg/Secret-Manager.svg', category: 'gcpcloudservices', level: 75 },
+   { name: 'Cloud Audit Logs', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Audit-Logs.svg', category: 'gcpcloudservices', level: 80 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 85 },
@@ -48,6 +53,9 @@ export const SKILLS = [
   { name: 'GitLab CI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg', category: 'devops', level: 75 },
   { name: 'Jenkins', icon: 'https://icon.icepanel.io/Technology/svg/Jenkins.svg', category: 'devops', level: 65 },
   { name: 'Bash Scripting', icon: 'http://icon.icepanel.io/Technology/png-shadow-512/Bash.png', category: 'devops', level: 75 },
+  { name: 'kafka', icon: 'https://icon.icepanel.io/Technology/png-shadow-512/Apache-Kafka.png', category: 'devops', level: 50 },
+  { name: 'n8n', icon: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-avatar/avatars/n8n.webp', category: 'devops', level: 35 },
+  { name: 'Firebase', icon: 'https://icon.icepanel.io/Technology/svg/Firebase.svg', category: 'devops', level: 70 },
 
   // Monitoring & Logging
   { name: 'CloudWatch', icon: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg', category: 'monitoring', level: 80 },
@@ -66,7 +74,7 @@ export const SKILLS = [
   // { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg', category: 'development', level: 20 },
 
   // Databases 
-  { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 30 },
+  { name: 'MongoDB Atlas', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 30 },
   { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', category: 'database', level: 40 },
 ];
 
