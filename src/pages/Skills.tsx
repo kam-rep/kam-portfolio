@@ -239,7 +239,7 @@ export const Skills = () => {
                             <img
                               src={skill.icon}
                               alt={skill.name}
-                              className="w-8 h-8 filter brightness-0 invert opacity-70 group-hover:opacity-100 transition-opacity"
+                              className="h-6 w-6 object-contain opacity-80 group-hover:opacity-100 transition-opacity"
                             />
                             <span className="font-mono font-medium text-neutral-200">
                               {skill.name}
