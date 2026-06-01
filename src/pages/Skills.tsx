@@ -19,10 +19,17 @@ export const Skills = () => {
       color: 'text-blue-500',
     },
     {
-      id: 'cloudservices',
-      title: 'Cloud Services',
+      id: 'awscloudservices',
+      title: 'AWS Cloud Services',
       icon: Cloud,
-      skills: SKILLS_BY_CATEGORY.cloudservices,
+      skills: SKILLS_BY_CATEGORY.awscloudservices,
+      color: 'text-cyan-500',
+    },
+    {
+      id: 'gcpcloudservices',
+      title: 'GCP Cloud Services',
+      icon: Cloud,
+      skills: SKILLS_BY_CATEGORY.gcpcloudservices,
       color: 'text-cyan-500',
     },
     {

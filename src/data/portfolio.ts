@@ -7,27 +7,26 @@ export const SKILLS = [
   { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloud', level: 85 },
   { name: 'GCP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloud', level: 75 },
   { name: 'DigitalOcean', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg', category: 'cloud', level: 60 },
+  { name: 'Amazon ECS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'cloud', level: 80 },
+  { name: 'GKE', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', category: 'cloud', level: 70 },
 
-  // Cloud Services
-  { name: 'IAM', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 80 },
-  { name: 'VPC', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 80 },
-  { name: 'Application Load Balancer', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 75 },
-  { name: 'Secret Manager', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloudservices', level: 75 },
-
-  { name: 'GKE', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', category: 'cloudservices', level: 70 },
-  { name: 'Cloud Run', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloudservices', level: 75 },
-  { name: 'Google Cloud Storage', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloudservices', level: 75 },
-  { name: 'Artifact Registry', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloudservices', level: 75 },
-  { name: 'Pub/Sub', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloudservices', level: 70 },
-
-  { name: 'Amazon ECS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'cloudservices', level: 80 },
-  { name: 'Amazon S3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 85 },
-  { name: 'AWS Lambda', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 80 },
-  { name: 'Amazon ECR', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'cloudservices', level: 80 },
-  { name: 'Route 53', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 75 },
-  { name: 'AWS Amplify', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 65 },
-  { name: 'API Gateway', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloudservices', level: 75 },
-
+  // aws Cloud Services
+  { name: 'IAM', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 80 },
+  { name: 'VPC', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Application Load Balancer', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 75 },
+  { name: 'Secret Manager', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 75 },
+  { name: 'Amazon S3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 85 },
+  { name: 'AWS Lambda', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Amazon ECR', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Route 53', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 75 },
+  { name: 'AWS Amplify', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 65 },
+  { name: 'API Gateway', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'awscloudservices', level: 75 },
+  
+  //GCP  Cloud Services
+  { name: 'Cloud Run', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Google Cloud Storage', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Artifact Registry', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Pub/Sub', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'gcpcloudservices', level: 70 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 85 },
@@ -148,7 +147,8 @@ export const CONTACT = {
 
 export const SKILLS_BY_CATEGORY = {
   cloud: SKILLS.filter(skill => skill.category === 'cloud'),
-  cloudservices: SKILLS.filter(skill => skill.category === 'cloudservices'),
+  awscloudservices: SKILLS.filter(skill => skill.category === 'awscloudservices'),
+  gcpcloudservices: SKILLS.filter(skill => skill.category === 'gcpcloudservices'),
   containers: SKILLS.filter(skill => skill.category === 'containers'),
   infrastructure: SKILLS.filter(skill => skill.category === 'infrastructure'),
   devops: SKILLS.filter(skill => skill.category === 'devops'),
