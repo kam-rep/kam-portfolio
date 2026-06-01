@@ -11,7 +11,7 @@ export const About = () => {
       company: 'Twilight IT Solutions Pvt Ltd',
       description:
         'Designing and managing cloud-native infrastructure across AWS and GCP. Building CI/CD pipelines, automating deployments, managing Kubernetes workloads, implementing Infrastructure as Code with Terraform, and improving system reliability through monitoring and observability solutions.',
-      icon: Code,
+      icon: Cloud,
     },
     {
       year: 'Oct,2023 - Sep,2024',
