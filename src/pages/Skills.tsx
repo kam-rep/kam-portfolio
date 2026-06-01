@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { TerminalHeader } from '../components/TerminalHeader';
 import { Typewriter } from '../components/Typewriter';
-import { Cloud, Container, Code, Database, Terminal as TerminalIcon, Activity } from 'lucide-react';
+import { Cloud, Container, Code, Database, Terminal as TerminalIcon, Activity, Cloudy, CloudCog, Infinity } from 'lucide-react';
 import { SKILLS_BY_CATEGORY } from '../data/portfolio';
 
 export const Skills = () => {
@@ -21,14 +21,14 @@ export const Skills = () => {
     {
       id: 'awscloudservices',
       title: 'AWS Cloud Services',
-      icon: Cloud,
+      icon: CloudCog,
       skills: SKILLS_BY_CATEGORY.awscloudservices,
       color: 'text-cyan-500',
     },
     {
       id: 'gcpcloudservices',
       title: 'GCP Cloud Services',
-      icon: Cloud,
+      icon: Cloudy,
       skills: SKILLS_BY_CATEGORY.gcpcloudservices,
       color: 'text-cyan-500',
     },
@@ -49,7 +49,7 @@ export const Skills = () => {
     {
       id: 'devops',
       title: 'DevOps & Automation',
-      icon: Code,
+      icon: Infinity,
       skills: SKILLS_BY_CATEGORY.devops,
       color: 'text-green-500',
     },
