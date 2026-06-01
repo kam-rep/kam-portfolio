@@ -23,10 +23,12 @@ export const SKILLS = [
   { name: 'API Gateway', icon: 'https://icon.icepanel.io/AWS/svg/App-Integration/API-Gateway.svg', category: 'awscloudservices', level: 75 },
   
   //GCP  Cloud Services
-  { name: 'Cloud Run', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Run.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'VPC', icon: 'https://icon.icepanel.io/GCP/svg/Virtual-Private-Cloud.svg', category: 'gcpcloudservices', level: 75 },
   { name: 'Google Cloud Storage', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Storage.svg', category: 'gcpcloudservices', level: 75 },
   { name: 'Artifact Registry', icon: 'https://icon.icepanel.io/GCP/svg/Artifact-Registry.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud load balancer', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Load-Balancing.svg', category: 'gcpcloudservices', level: 70 },
   { name: 'Pub/Sub', icon: 'https://icon.icepanel.io/GCP/svg/PubSub.svg', category: 'gcpcloudservices', level: 70 },
+  { name: 'Cloud Run', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Run.svg', category: 'gcpcloudservices', level: 75 },
 
   // Containers
   { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 85 },
