@@ -9,8 +9,8 @@ export const Projects = () => {
 
   const filters = [
     { id: 'all', label: 'All Projects', count: PROJECTS_BY_CATEGORY.all.length },
+    { id: 'cloud', label: 'Cloud', count: PROJECTS_BY_CATEGORY.cloud.length },
     { id: 'devops', label: 'DevOps', count: PROJECTS_BY_CATEGORY.devops.length },
-    { id: 'fullstack', label: 'Full-Stack', count: PROJECTS_BY_CATEGORY.fullstack.length },
   ];
 
   const getProjects = () => {
@@ -89,7 +89,7 @@ export const Projects = () => {
                         ? 'bg-green-500/20 text-green-500 border border-green-500/30'
                         : 'bg-blue-500/20 text-blue-500 border border-blue-500/30'
                     }`}>
-                      {project.category === 'devops' ? 'DevOps' : 'Full-Stack'}
+                      {project.category === 'devops' ? 'DevOps' : 'Cloud'}
                     </span>
                   </div>
                 </div>
@@ -191,8 +191,8 @@ export const Projects = () => {
                   <span className="text-primary-500">{PROJECTS_BY_CATEGORY.devops.length}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Full-Stack Projects:</span>
-                  <span className="text-primary-500">{PROJECTS_BY_CATEGORY.fullstack.length}</span>
+                  <span>Cloud Projects:</span>
+                  <span className="text-primary-500">{PROJECTS_BY_CATEGORY.cloud.length}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Technologies Used:</span>
@@ -214,7 +214,7 @@ export const Projects = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24">
+      {/* <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -250,7 +250,7 @@ export const Projects = () => {
             </div>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

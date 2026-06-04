@@ -102,7 +102,7 @@ export const PROJECTS = [
     image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     description: 'Developed a real-time chat application using the MERN stack with Socket.IO for instant communication. Implemented custom hooks and Zustand for efficient state management. Dockerized for deployment.',
     technologies: ['React', 'Node', 'Express', 'MongoDB', 'Socket.IO', 'Zustand', 'Docker'],
-    category: 'fullstack',
+    category: 'cloud',
     githubLink: 'https://github.com/neerajnakka/Mern_ChatApp',
     websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
   },
@@ -120,7 +120,7 @@ export const PROJECTS = [
     image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     description: 'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication.',
     technologies: ['React', 'Tailwind CSS', 'Firebase'],
-    category: 'fullstack',
+    category: 'cloud',
     githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
     websiteLink: 'https://netflix-clone-wi5g.onrender.com/',
   },
@@ -129,7 +129,7 @@ export const PROJECTS = [
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     description: 'Designed and developed a modern portfolio website featuring smooth animations, 3D effects powered by Three.js, and a sleek user interface. Leveraged Tailwind CSS for responsive design, React for dynamic interactivity, and Zustand for state management. The site incorporates Framer Motion for fluid transitions.',
     technologies: ['React', 'Three.js', 'Tailwind CSS', 'Framer Motion', 'Zustand', 'HTML', 'CSS'],
-    category: 'fullstack',
+    category: 'cloud',
     githubLink: 'https://github.com/neerajnakka/Neeraj_Portfolio',
     websiteLink: 'https://neerajnakka.onrender.com/',
   },
@@ -138,7 +138,7 @@ export const PROJECTS = [
     image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
     description: 'Dynamic React portfolio showcasing projects with Tailwind CSS design and Framer Motion animations.',
     technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
-    category: 'fullstack',
+    category: 'cloud',
     githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
     websiteLink: 'https://neerajchandra.onrender.com/',
   },
@@ -169,6 +169,6 @@ export const SKILLS_BY_CATEGORY = {
 
 export const PROJECTS_BY_CATEGORY = {
   all: PROJECTS,
+  cloud: PROJECTS.filter(project => project.category === 'cloud'),
   devops: PROJECTS.filter(project => project.category === 'devops'),
-  fullstack: PROJECTS.filter(project => project.category === 'fullstack'),
 };
