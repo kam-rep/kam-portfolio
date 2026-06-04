@@ -1,0 +1,174 @@
+export const HERO_CONTENT = "Building scalable systems from code to cloud. Passionate about cloud infrastructure, automation, CI/CD pipelines, Kubernetes, and production-grade reliability.";
+
+export const ABOUT_TEXT = "I design, automate, and deploy systems that turn code into production-grade reality. My journey began with full-stack development—building web apps with Java, React, and Node.js. Over time, that foundation evolved into a passion for DevOps and Cloud Engineering, where I now focus on crafting scalable infrastructure, clean CI/CD pipelines, and resilient deployments. I work across AWS and OCI, orchestrate containers with Docker and Kubernetes, and define infrastructure with Terraform, Ansible, and CloudFormation. Behind the command line, I'm equally comfortable in version control and workflow automation, using Git, GitHub, GitLab CI/CD, CodePipeline, and Bash scripting to bridge collaboration and delivery. For me, DevOps isn't just about speed—it's about precision, repeatability, and creating systems that empower developers to ship confidently and innovate faster.";
+
+export const SKILLS = [
+  // Cloud
+  { name: 'AWS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg', category: 'cloud', level: 85 },
+  { name: 'GCP', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg', category: 'cloud', level: 75 },
+  { name: 'DigitalOcean', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg', category: 'cloud', level: 60 },
+  { name: 'Amazon ECS', icon: 'https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Service.svg', category: 'cloud', level: 80 },
+  { name: 'GKE', icon: 'https://icon.icepanel.io/GCP/svg/Google-Kubernetes-Engine.svg', category: 'cloud', level: 70 },
+
+  // aws Cloud Services
+  { name: 'IAM', icon: 'https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Identity-and-Access-Management.svg', category: 'awscloudservices', level: 80 },
+  { name: 'VPC', icon: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Virtual-Private-Cloud.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Application Load Balancer', icon: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Elastic-Load-Balancing.svg', category: 'awscloudservices', level: 75 },
+  { name: 'Secret Manager', icon: 'https://icon.icepanel.io/AWS/svg/Security-Identity-Compliance/Secrets-Manager.svg', category: 'awscloudservices', level: 75 },
+  { name: 'Amazon S3', icon: 'https://icon.icepanel.io/AWS/svg/Storage/Simple-Storage-Service.svg', category: 'awscloudservices', level: 85 },
+  { name: 'AWS Lambda', icon: 'https://icon.icepanel.io/AWS/svg/Compute/Lambda.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Amazon ECR', icon: 'https://icon.icepanel.io/AWS/svg/Containers/Elastic-Container-Registry.svg', category: 'awscloudservices', level: 80 },
+  { name: 'Route 53', icon: 'https://icon.icepanel.io/AWS/svg/Networking-Content-Delivery/Route-53.svg', category: 'awscloudservices', level: 75 },
+  { name: 'AWS Amplify', icon: 'https://icon.icepanel.io/AWS/svg/Front-End-Web-Mobile/Amplify.svg', category: 'awscloudservices', level: 65 },
+  { name: 'API Gateway', icon: 'https://icon.icepanel.io/AWS/svg/App-Integration/API-Gateway.svg', category: 'awscloudservices', level: 75 },
+  { name: 'SES', icon: 'https://icon.icepanel.io/AWS/svg/Business-Applications/Simple-Email-Service.svg', category: 'awscloudservices', level: 85 },
+  
+  //GCP  Cloud Services
+  { name: 'VPC', icon: 'https://icon.icepanel.io/GCP/svg/Virtual-Private-Cloud.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Google Cloud Storage', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Storage.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Artifact Registry', icon: 'https://icon.icepanel.io/GCP/svg/Artifact-Registry.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud load balancer', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Load-Balancing.svg', category: 'gcpcloudservices', level: 70 },
+  { name: 'Pub/Sub', icon: 'https://icon.icepanel.io/GCP/svg/PubSub.svg', category: 'gcpcloudservices', level: 70 },
+  { name: 'Cloud Run', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Run.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud Armor', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Armor.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud NAT', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-NAT.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Secret Manager', icon: 'https://icon.icepanel.io/GCP/svg/Secret-Manager.svg', category: 'gcpcloudservices', level: 75 },
+  { name: 'Cloud Audit Logs', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Audit-Logs.svg', category: 'gcpcloudservices', level: 80 },
+
+  // Containers
+  { name: 'Docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg', category: 'containers', level: 85 },
+  { name: 'Kubernetes', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', category: 'containers', level: 80 },
+  { name: 'Helm', icon: 'https://icon.icepanel.io/Technology/png-shadow-512/Helm.png', category: 'containers', level: 75 },
+  { name: 'ArgoCD', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg', category: 'containers', level: 75 },
+  { name: 'Kubernetes Manifests', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg', category: 'containers', level: 80 },
+  
+  // Infrastructure
+  { name: 'Terraform', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg', category: 'infrastructure', level: 80 },
+  { name: 'Ansible', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original-wordmark.svg', category: 'infrastructure', level: 30 },
+
+  // DevOps / Automation
+  { name: 'Linux', icon: 'https://icon.icepanel.io/Technology/png-shadow-512/Linux.png', category: 'devops', level: 85 },
+  { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg', category: 'devops', level: 85 },
+  { name: 'GitHub Actions', icon: 'https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg', category: 'devops', level: 80 },
+  { name: 'GitLab CI', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg', category: 'devops', level: 75 },
+  { name: 'Jenkins', icon: 'https://icon.icepanel.io/Technology/svg/Jenkins.svg', category: 'devops', level: 65 },
+  { name: 'Bash Scripting', icon: 'http://icon.icepanel.io/Technology/png-shadow-512/Bash.png', category: 'devops', level: 75 },
+  { name: 'kafka', icon: 'https://icon.icepanel.io/Technology/png-shadow-512/Apache-Kafka.png', category: 'devops', level: 50 },
+  { name: 'n8n', icon: 'https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-avatar/avatars/n8n.webp', category: 'devops', level: 35 },
+  { name: 'Firebase', icon: 'https://icon.icepanel.io/Technology/svg/Firebase.svg', category: 'devops', level: 70 },
+
+  // Monitoring & Logging
+  { name: 'CloudWatch', icon: 'https://icon.icepanel.io/AWS/svg/Management-Governance/CloudWatch.svg', category: 'monitoring', level: 80 },
+  { name: 'Cloud Monitoring', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Monitoring.svg', category: 'monitoring', level: 75 },
+  { name: 'Cloud Logging', icon: 'https://icon.icepanel.io/GCP/svg/Cloud-Logging.svg', category: 'monitoring', level: 75 },
+  { name: 'Prometheus', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg', category: 'monitoring', level: 70 },
+  { name: 'Grafana', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg', category: 'monitoring', level: 70 },
+  { name: 'ELK Stack', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg', category: 'monitoring', level: 65 },
+  
+  // Development
+  { name: 'Java', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg', category: 'development', level: 40 },
+  // { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg', category: 'development', level: 20 },
+  { name: 'Python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', category: 'development', level: 30 },
+  { name: 'React.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', category: 'development', level: 20 },
+  // { name: 'HTML', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg', category: 'development', level: 40 },
+  // { name: 'CSS', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg', category: 'development', level: 20 },
+
+  // Databases 
+  { name: 'MongoDB Atlas', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg', category: 'database', level: 30 },
+  { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', category: 'database', level: 40 },
+];
+
+export const PROJECTS = [
+  {
+    title: 'Amazon Clone — EKS & ArgoCD Deployment',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Deployed a production-grade Amazon Clone on AWS EKS with full GitOps automation via ArgoCD. Integrated CI/CD pipelines using GitHub Actions, containerized microservices with Docker, and managed configuration using Kustomize for seamless auto-sync deployments.',
+    technologies: ['AWS EKS', 'Kubernetes', 'ArgoCD', 'GitHub Actions', 'Kustomize', 'Docker', 'Terraform'],
+    category: 'devops',
+    githubLink: 'https://github.com/neerajnakka/amazon-clone-k8s-eks-argoCD',
+    websiteLink: '',
+  },
+  {
+    title: 'Next.js CI/CD Pipeline with Docker & Kubernetes',
+    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Developed and containerized a Next.js application, deploying it to Kubernetes clusters using GitHub Actions for automated CI/CD. Implemented multi-stage Docker builds, health probes, resource limits, and rolling updates for high availability.',
+    technologies: ['Next.js', 'Docker', 'Kubernetes', 'GitHub Actions', 'GHCR'],
+    category: 'devops',
+    githubLink: 'https://github.com/neerajnakka/nextjs-docker-kubernetes-app',
+    websiteLink: '',
+  },
+  {
+    title: 'Realtime Chat App — MERN + Socket.IO',
+    image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Developed a real-time chat application using the MERN stack with Socket.IO for instant communication. Implemented custom hooks and Zustand for efficient state management. Dockerized for deployment.',
+    technologies: ['React', 'Node', 'Express', 'MongoDB', 'Socket.IO', 'Zustand', 'Docker'],
+    category: 'fullstack',
+    githubLink: 'https://github.com/neerajnakka/Mern_ChatApp',
+    websiteLink: 'https://mern-chatapp-rfj5.onrender.com/',
+  },
+  {
+    title: 'Cloud Infrastructure Automation',
+    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Automated AWS infrastructure provisioning using Terraform with reusable modules for EC2, VPC, and S3. Integrated CI/CD with GitHub Actions for continuous deployment of cloud environments.',
+    technologies: ['AWS', 'Terraform', 'GitHub Actions', 'EC2', 'S3'],
+    category: 'devops',
+    githubLink: 'https://github.com/neerajnakka',
+    websiteLink: '',
+  },
+  {
+    title: 'Netflix Clone using React',
+    image: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Built a Netflix clone with React, Tailwind CSS, and Firebase. Integrated React Router for seamless navigation and Firebase for authentication.',
+    technologies: ['React', 'Tailwind CSS', 'Firebase'],
+    category: 'fullstack',
+    githubLink: 'https://github.com/neerajnakka/NetflixReact_Clone',
+    websiteLink: 'https://netflix-clone-wi5g.onrender.com/',
+  },
+  {
+    title: 'Modern Portfolio with 3D Animations',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Designed and developed a modern portfolio website featuring smooth animations, 3D effects powered by Three.js, and a sleek user interface. Leveraged Tailwind CSS for responsive design, React for dynamic interactivity, and Zustand for state management. The site incorporates Framer Motion for fluid transitions.',
+    technologies: ['React', 'Three.js', 'Tailwind CSS', 'Framer Motion', 'Zustand', 'HTML', 'CSS'],
+    category: 'fullstack',
+    githubLink: 'https://github.com/neerajnakka/Neeraj_Portfolio',
+    websiteLink: 'https://neerajnakka.onrender.com/',
+  },
+  {
+    title: 'Portfolio Website',
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80',
+    description: 'Dynamic React portfolio showcasing projects with Tailwind CSS design and Framer Motion animations.',
+    technologies: ['Tailwind CSS', 'React.js', 'React Router Dom', 'Framer Motion'],
+    category: 'fullstack',
+    githubLink: 'https://github.com/neerajnakka/PortFolio_React/tree/master',
+    websiteLink: 'https://neerajchandra.onrender.com/',
+  },
+];
+
+export const CONTACT = {
+  address: 'Puducherry, Pondicherry, India',
+  phoneNo: '+91 8190043052',
+  email: 'kameshtech1@gmail.com',
+  social: {
+    github: 'https://github.com/kam-rep',
+    linkedin: 'https://linkedin.com/in/kameshwar-vivekananthan',
+    naukri: 'https://www.naukri.com/',
+  }
+};
+
+export const SKILLS_BY_CATEGORY = {
+  cloud: SKILLS.filter(skill => skill.category === 'cloud'),
+  awscloudservices: SKILLS.filter(skill => skill.category === 'awscloudservices'),
+  gcpcloudservices: SKILLS.filter(skill => skill.category === 'gcpcloudservices'),
+  containers: SKILLS.filter(skill => skill.category === 'containers'),
+  infrastructure: SKILLS.filter(skill => skill.category === 'infrastructure'),
+  devops: SKILLS.filter(skill => skill.category === 'devops'),
+  monitoring: SKILLS.filter(skill => skill.category === 'monitoring'),
+  development: SKILLS.filter(skill => skill.category === 'development'),
+  database: SKILLS.filter(skill => skill.category === 'database'),
+};
+
+export const PROJECTS_BY_CATEGORY = {
+  all: PROJECTS,
+  devops: PROJECTS.filter(project => project.category === 'devops'),
+  fullstack: PROJECTS.filter(project => project.category === 'fullstack'),
+};
