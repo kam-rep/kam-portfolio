@@ -1,13 +1,16 @@
 import { useState } from 'react';
+import type React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Menu, X, ChevronRight, BookOpen, FileText } from 'lucide-react';
+// import { Menu, X, ChevronRight, BookOpen, FileText } from 'lucide-react';
+import { Menu, X, ChevronRight } from 'lucide-react';
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
-  const navItems = [
+  // const navItems = [
+  const navItems: { path: string; label: string; icon?: React.ElementType }[] = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/skills', label: 'Skills' },
