@@ -149,7 +149,7 @@ export const CONTACT = {
   phoneNo: '+91 8190043052',
   email: 'kameshtech1@gmail.com',
   social: {
-    github: 'https://github.com/kam-rep',
+    github: 'https://github.com/kam-rep/github-profile/blob/main/README.md',
     linkedin: 'https://linkedin.com/in/kameshwar-vivekananthan',
     naukri: 'https://www.naukri.com/',
   }
