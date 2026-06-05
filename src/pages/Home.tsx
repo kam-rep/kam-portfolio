@@ -230,7 +230,7 @@ export const Home = () => {
                 Start a Project
               </Link>
               <a
-                href="https://github.com/kam-rep"
+                href="https://github.com/kam-rep/github-profile/blob/main/README.md"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-4 border-2 border-neutral-600 text-neutral-200 hover:border-primary-500 hover:text-primary-500 font-semibold rounded-lg transition-all duration-200"
